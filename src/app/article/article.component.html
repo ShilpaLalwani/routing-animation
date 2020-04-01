@@ -1,0 +1,14 @@
+<div class="wrap">
+			<div *ngFor="let article of articleList"
+        class="tile col-lg-3" > 
+			  	<img [src]="article.imgUrl"/>
+			  	<div class="text">
+				  	<h1>{{article.name}}</h1>
+				  	<h2 class="animate-text"  @animateText>{{article.subtitle}}</h2>
+				  	<p class="animate-text" @animateText>{{article.description}}</p>
+				  	<div class="dots">
+					    <span></span> <span></span><span></span>
+					</div>
+			  	</div>
+			</div>
+</div>
