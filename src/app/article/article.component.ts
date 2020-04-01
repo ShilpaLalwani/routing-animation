@@ -8,15 +8,7 @@ import {Article, ARTICLE_MOCK} from './article';
   animations: [
     trigger('noEnterAnimation', [transition(':enter', [])]),
     trigger('listItemAnimation', [
-      // transition(':enter', [
-      //   style({ transform:translateX(0), }),
-      //   group([animate('350ms ease-out', style({ height: '!' }))]),
-      // ]),
-      // transition(':leave', [
-      //   style({ opacity:0 }),
-      //   group([animate('500ms ease-out', style({ height: '0px' }))]),
-      // ]),
-      // //transition("on => off", animate(500))
+      
       
     ]),
     trigger('animateText', [
