@@ -8,7 +8,7 @@ import { ArticleComponent } from './article/article.component';
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/home' },
   { path: 'home', component: HomeComponent , data: {animation: 'Home'} },
-  { path: 'article', component: ArticleComponent , data: {animation: 'Article'} },
+  { path: 'article/:id', component: ArticleComponent , data: {animation: 'Article'} },
 ];
 
 @NgModule({

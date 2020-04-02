@@ -1,5 +1,6 @@
 <div class="wrap">
 			<div *ngFor="let article of articleList"
+      (click)="gotoDetail(article)"
         class="tile col-lg-3" > 
 			  	<img [src]="article.url"/>
 			  	<div class="text">
