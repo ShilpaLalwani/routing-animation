@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Article, ARTICLE_MOCK} from './articleList';
 import { Router } from '@angular/router';
+
+import {Article, ARTICLE_MOCK} from './articleList';
 
 @Component({
   selector: 'app-home',
