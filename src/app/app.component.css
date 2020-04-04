@@ -5,10 +5,11 @@
         
     }
 header a{
-            color: black;
+            color:#123;
             text-decoration: none;
             padding: 20px 20px;
             font-size:20px;
+            font-weight: bold;
             
         }
 .main-container{
