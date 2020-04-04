@@ -11,7 +11,7 @@
   outline: none;
 }
 body{
-  background: #123;
+  background: #123!important;
     font-family: Lato, "Helvetica Neue", Helvetica, Arial;
 }
 body,
