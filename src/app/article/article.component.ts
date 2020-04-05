@@ -7,7 +7,7 @@ import {Article, ARTICLE_MOCK} from '../home/articleList';
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
-  styleUrls: ['./article.component.scss'],
+  styleUrls: ['./article.component.css'],
 })
 export class ArticleComponent {
     @Input() article: Article;
